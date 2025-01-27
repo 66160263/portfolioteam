@@ -1,0 +1,63 @@
+<div class="container mx-auto px-4 py-8 bg-gray-50">
+    <h2 class="text-3xl font-semibold text-center text-blue-600 mb-8">ติดต่อเรา</h2>
+    <p class="text-center text-gray-600 mb-6">
+        หากคุณมีคำถามหรือข้อสงสัย สามารถกรอกแบบฟอร์มด้านล่างเพื่อส่งข้อความหาเรา แล้วเราจะติดต่อกลับโดยเร็วที่สุด
+    </p>
+    <div class="flex justify-center">
+        <div class="w-full max-w-lg bg-white p-6 rounded-lg shadow-md">
+            
+            <!-- Full Name Field -->
+            <div class="mb-6">
+                <label for="name" class="block text-lg font-medium text-gray-700">ชื่อ-นามสกุล</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                    placeholder="กรอกชื่อ-นามสกุลของคุณ" 
+                    required>
+            </div>
+            
+            <!-- Email Address Field -->
+            <div class="mb-6">
+                <label for="email" class="block text-lg font-medium text-gray-700">อีเมล</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                    placeholder="กรอกอีเมลของคุณ" 
+                    required>
+            </div>
+            
+            <!-- Phone Number Field -->
+            <div class="mb-6">
+                <label for="phone" class="block text-lg font-medium text-gray-700">เบอร์โทรศัพท์</label>
+                <input 
+                    type="tel" 
+                    id="phone" 
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                    placeholder="กรอกเบอร์โทรศัพท์ของคุณ (ถ้ามี)">
+            </div>
+            
+            <!-- Message Field -->
+            <div class="mb-6">
+                <label for="message" class="block text-lg font-medium text-gray-700">ข้อความ</label>
+                <textarea 
+                    id="message" 
+                    rows="5" 
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                    placeholder="พิมพ์ข้อความของคุณที่นี่" 
+                    required></textarea>
+            </div>
+            
+            <!-- Submit Button -->
+            <div>
+                <button 
+                    type="submit" 
+                    class="w-full py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    ส่งข้อความ
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
